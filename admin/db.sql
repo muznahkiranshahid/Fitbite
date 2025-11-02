@@ -2,8 +2,8 @@ CREATE database fitbite_db;
 USE fitbite_db;
 CREATE TABLE meals (
   id INT AUTO_INCREMENT PRIMARY KEY,
-  meal_name VARCHAR(100) NOT NULL,
-  meal_type ENUM('Breakfast', 'Lunch', 'Dinner') NOT NULL,
+  name VARCHAR(100) NOT NULL,
+  type ENUM('Breakfast', 'Lunch', 'Dinner') NOT NULL,
   calories INT NOT NULL,
   protein FLOAT,
   carbs FLOAT,

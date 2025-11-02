@@ -1,3 +1,5 @@
+<?php include('database.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,13 +57,9 @@
   <a href="view_meals.php">📋 View Meals</a>
   <a href="export_json.php">⬇ Export JSON</a>
   <a href="import_json.php">⬆ Import JSON</a>
-  <button class="btn btn-success">Bootstrap Loaded</button>
-
 </div>
 <div class="content">
-  <div class="content">
-  <h1>Admin Dashboard Loaded Successfully!</h1>
-</div>
+
 </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
